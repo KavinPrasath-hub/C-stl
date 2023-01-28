@@ -1,0 +1,11 @@
+multiset<int> ms
+  - also uses self balances binary tree internally,
+  - same function as set,
+  - allows duplicates,
+  - ms.erase(val) - removes all the val in ms,
+  - ms.erase(pos) - same as set,
+  - ms.erase(add1, add2) - same as set,
+  - ms.count(val) - returns the no. of occurences of val,
+  - ms.upper_bound(val) - same as set,
+  - ms.lower_bound(val) - returns the first occurence address,
+  - ms.equal_range(val) - returns pair of itertor from upper_bound and lower_bound in pair<data_type, data_type> format,
