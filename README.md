@@ -19,7 +19,7 @@
   - arr.erase(arr.begin()) - erases at begining,
   - arr.erase(arr.begin(),arr.end()-1) - erases from begining to end,
   - arr.resize(size) - if size incre - fills zero for new, else reduce upto n;
-** 2)forward_list(data_type) ll**
+-2)forward_list(data_type) ll
   - implements singly linked list,
   - ll.push_front(),
   - ll.pop_front(),
