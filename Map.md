@@ -1,0 +1,26 @@
+map<int,int> m:
+  - map<int,int> m -ascending order
+  - map<int,int,greater<int>> m - descending order reverse lower_bound and upper bound,
+  - also implements red black tree
+  - map is also ordered
+  - map is ordered using key value,
+  - m.insert({key,val}),
+  - m[key] = val,
+  - m.first() - key,
+  - m.second() - val,
+  - m.insert({key,val}) when used for already existing key new val is ignored,
+  - m[key] - when accessing the not present key then the key is inserted with val of 0,
+  - m.at(key) - alternative for m[key] if the key is not present out of range exception is given
+  - m.begin()
+  - m.end(),
+  - m.rbegin(),
+  - m.rend(),
+  - m.find(key) if the key is present it gives the address or it returns the address of m.end(), only for value,
+  - m.count(key) - returns the count of key in map,
+  - m.lower_bound(key) - returns the address of key if present else returns the greater value than the key if key is greater than the greatest returns m.end(),
+  - m.upper_bound(key) - similiar to lower_bound but if key is present it returns the greater value,
+  - m.erase(key) - removes the given key and it's value we can also pass address,
+  - m.erase(add1,add2) - removes key from add1 to just before add2,
+  - applications 
+      - sorted stream of data,
+      - doubly ended priority key,
