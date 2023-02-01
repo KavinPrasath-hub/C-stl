@@ -1,0 +1,9 @@
+string s = "words";
+  - strlen(s) - gives length of string,
+  - strcmp(s1,s2) - retruns 0 if s1 and s2 are equal,-1 if s1 is smaller, else 1 if s1 is greater,
+  - strcpy(s1,s2) - copies s2 in  s1 it also takes string literals for s2
+  - s1+s2 - conctenated s2 to s1,
+  - s1.substr(ind1,len) - gives substr from ind1 to ind1+len,
+  - s1.find('word') give first index of word in s1 if not present it returns string::npos,
+  - getline(cin,s,constraint) - it reads the string until the constraint,
+  - 
