@@ -1,4 +1,5 @@
-stack <int> s - 
+stack<int> s - 
+  - stack<int> s;
   - insert at top and removes at top
   - s.push(int x)
   - s.top() - returns top element,
