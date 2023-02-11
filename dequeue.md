@@ -1,0 +1,17 @@
+dequeue<int> dq,
+  - dq.push_front(int x) 
+  - dq.push_back(int x)
+  - dq.front() - gives first element,
+  - dq.back() - gives last element,
+  - dq.begin(),
+  - dq.end(),
+  - dq.rbegin(),
+  - dq.rend(),
+  - dq.pop_front(),
+  - dq.pop_back(),
+  - dq.insert(add,val) - inserts the val before the add,
+  - dq.size(),
+  - dq.clear() - emptys the dequeue,
+  - dq.empty(),
+  - dq.erase(add) - removes element from add,
+  - dq.erase(add1,add2) - removes element from add1 until add2, 
