@@ -1,0 +1,17 @@
+unordered_map<int,int> um - 
+  - uses hashing,
+  - has no order,
+  - um.insert({key,val}) - inserts key with val,
+  - um[key] = val is also valid,
+  - i.first - key,
+  - i.second - val,
+  - um.begin(),
+  - um.end(),
+  - um.find(key) - returns the add of key if present : um.end(),
+  - it = um.begin()
+  - it->first or (*it).first both are valid,
+  - um.empty(),
+  - um.size(),
+  - um.count(key) - returns the occurences of key,
+  - um.erase(key or add) - erase key or key at the add,
+  - 
