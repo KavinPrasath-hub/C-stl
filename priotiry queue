@@ -1,0 +1,9 @@
+priority_queue<int> pq - 
+  - default max heap - maximum element always at the top
+  - priority_queue<int, vector<int>, greater<int>> - min heap;
+  - priority_queue<int> pq(arr.begin(),arr.end()) - cretaes priority queue over the arr,
+  - pq.push(val)
+  - pq.pop() - removes top element
+  - pq.size()
+  - pq.empty() - returns true if it is empty elase false
+  - 
