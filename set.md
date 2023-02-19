@@ -5,6 +5,7 @@ set<int> arr-
   - default order is ascending,
   - descending order - set<int, greater<int>> arr,
   - it is set<int>::iterator it,
+  - arr.insert(val) - inserts the value in sorted order,
   - arr.begin(),
   - arr.end(),
   - arr.find(),
